@@ -1,5 +1,3 @@
-// Dashboard.js
-
 import React from "react";
 import {
   Card,
@@ -14,7 +12,7 @@ import {
   TableCell,
   ProgressBar,
 } from "@tremor/react";
-import data from "./data"; // Assuming your data is in data.json file
+import data from "./data";
 
 const Dashboard = () => {
   const authorData = data.data.AuthorWorklog.rows;
